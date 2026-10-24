@@ -1,0 +1,25 @@
+[START] revision pipeline v1  seed=2025 n_boot=500 smoke=0
+[OUT] /Users/llm/Desktop/Claude数据库分析/方向3 肝病+AI ing/revision_2026-10_major
+[LOAD] reading /Users/llm/Desktop/Claude数据库分析/方向3 肝病+AI ing/ukb_ckm0228.csv
+[LOAD] done (501936, 27) in 3.1s
+[ENDPOINT] liver=1,723 other_death=55,238 alive/censor=444,975 / 501,936; median FU=14.8y
+[COHORT] FLI>=60 189,837/501,936 | cardio 389,234 | non-heavy 284,952 | kept 110,057
+[MISS] wrote missingness_report.csv; FIB4 missing pct=8.785
+[SPLIT] derivation=88,046 test=22,011 (liver ev tr=437, te=118; other death tr=12883, te=3221)
+[COX] fitting primary multivariable Cox on derivation
+[COX] baseline S0(10)=0.998400
+[FIB4] univariate Cox calibration on derivation log(FIB-4)
+[FIB4] fit n=80319, S0(10)=0.997835, test finite risks=20070
+[TERTILE] derivation cuts: 0.00113988, 0.00192844
+[TERTILE] test low: n=7440
+[TERTILE] test mid: n=7250
+[TERTILE] test high: n=7321
+[AJ] low: n=7440 liver_ev=7 CIF15.0=0.0009408602150537634
+[AJ] mid: n=7250 liver_ev=15 CIF15.0=0.00203185500713201
+[AJ] high: n=7321 liver_ev=96 CIF15.0=0.01260490171812928
+[METRICS] paired bootstrap n_boot=500 on test (Cox vs calibrated FIB-4)
+[METRICS] wrote primary_model_metrics.json
+[SUMMARY] AUC cox=0.8729 fib4=0.7738 diff=0.0991 CI=(0.054075136791276984, 0.15352744111643732)
+[SUMMARY] C-index cox=0.8481 fib4=0.7714 diff=0.0768 CI=(0.04252897044790123, 0.10904474694817529)
+[SUMMARY] Brier cox=0.002345 fib4=0.002458 diff=-0.000113 CI=(-0.00018807302143386903, -4.09766256968477e-05)
+[DONE] all revision outputs written
