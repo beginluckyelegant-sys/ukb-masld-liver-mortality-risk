@@ -2,7 +2,7 @@
 
 Reproducible analysis code for a **multivariable Cox proportional-hazards clinical-risk model** predicting **liver-related mortality** among participants with **MASLD** (metabolic dysfunction–associated steatotic liver disease) in the **UK Biobank** (**application 505149**). This package supports the major revision of Scientific Reports manuscript **65e1e7c0-b53a-474f-8813-9205bb0ba9d8**.
 
-**DOI: pending Zenodo deposit**
+**DOI:** [10.5281/zenodo.23612629](https://doi.org/10.5281/zenodo.23612629) (concept DOI [10.5281/zenodo.23612628](https://doi.org/10.5281/zenodo.23612628))
 
 ## What is included / not included
 
@@ -91,8 +91,8 @@ Please cite the Scientific Reports article (when published) and this repository.
 ```
 Wang WY, et al. Multivariable Cox clinical-risk model for liver-related mortality
 in MASLD. Scientific Reports (revision). UK Biobank application 505149.
-Code: https://github.com/TODO_ORG/ukb-masld-liver-mortality-risk
-DOI: pending Zenodo deposit
+Code: https://github.com/beginluckyelegant-sys/ukb-masld-liver-mortality-risk
+DOI: https://doi.org/10.5281/zenodo.23612629
 ```
 
 ## License
