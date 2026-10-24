@@ -11,6 +11,7 @@ authors:
     affiliation: Peking University Third Hospital
   - name: "UK Biobank Application 505149 investigators"
 repository-code: "https://github.com/beginluckyelegant-sys/ukb-masld-liver-mortality-risk"
+doi: "10.5281/zenodo.23612629"
 keywords:
   - UK Biobank
   - MASLD
@@ -19,6 +20,12 @@ keywords:
   - FIB-4
   - competing risks
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23612629"
+    description: "Zenodo version DOI for GitHub release v1.0.0"
+  - type: doi
+    value: "10.5281/zenodo.23612628"
+    description: "Zenodo concept DOI (all versions)"
   - type: other
     value: "Scientific Reports manuscript 65e1e7c0-b53a-474f-8813-9205bb0ba9d8"
     description: "Journal submission identifier (major revision)"
