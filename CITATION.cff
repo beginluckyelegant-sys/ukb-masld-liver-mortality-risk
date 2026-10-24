@@ -10,7 +10,7 @@ authors:
     given-names: Wen-yao
     affiliation: Peking University Third Hospital
   - name: "UK Biobank Application 505149 investigators"
-repository-code: "https://github.com/TODO_ORG/ukb-masld-liver-mortality-risk"
+repository-code: "https://github.com/beginluckyelegant-sys/ukb-masld-liver-mortality-risk"
 keywords:
   - UK Biobank
   - MASLD
