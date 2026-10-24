@@ -1,0 +1,11 @@
+{
+  "risk_variable": "cox_risk10_primary",
+  "derivation_n": 88046,
+  "cut_33": 0.0011398838379444627,
+  "cut_67": 0.0019284447056697,
+  "quantiles": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "note": "Cut-offs computed on derivation only; applied unchanged to test."
+}
