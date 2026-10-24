@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local UK Biobank extracts and participant-level data (NEVER commit)
+ukb*.csv
+*ukb*.csv
+*eid*
+*_participant*
+raw_data/
+data/raw/
+data/individual/
+*.sav
+*.dta
+*.sas7bdat
+
+# Large / local run outputs beyond the shipped aggregate results/
+outputs/
+runs/
+scratch/
+*.h5
+*.pkl
+*.joblib
+*.parquet
+
+# Manuscripts and office drafts
+*.docx
+*.doc
+*.pptx
+*.xlsx
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env.*
+credentials*
+*.pem
