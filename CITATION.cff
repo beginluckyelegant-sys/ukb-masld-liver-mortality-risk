@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this analysis code, please cite the accompanying manuscript and this repository."
+title: "Multivariable Cox clinical-risk model for liver-related mortality in MASLD (UK Biobank application 505149)"
+version: "1.0.0"
+date-released: "2026-10-23"
+license: MIT
+type: software
+authors:
+  - family-names: Wang
+    given-names: Wen-yao
+    affiliation: Peking University Third Hospital
+  - name: "UK Biobank Application 505149 investigators"
+repository-code: "https://github.com/TODO_ORG/ukb-masld-liver-mortality-risk"
+keywords:
+  - UK Biobank
+  - MASLD
+  - liver-related mortality
+  - Cox model
+  - FIB-4
+  - competing risks
+identifiers:
+  - type: other
+    value: "Scientific Reports manuscript 65e1e7c0-b53a-474f-8813-9205bb0ba9d8"
+    description: "Journal submission identifier (major revision)"
+  - type: other
+    value: "UK Biobank application 505149"
+    description: "Approved data access application"
